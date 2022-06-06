@@ -1,37 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Shanai Nair</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body id="top">
 
-<head>
-    <link rel="stylesheet" href="styles.css">
-</head>
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
 
-<body>
 
-<h1> 
-    This is a heading. 
-</h1>
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="index.html#about"><i class="fa fa-fw fa-graduation-cap"></i><span>About</span></a>
+						<a href="index.html#service"><i class="fa fa-fw fa-cogs"></i><span>Services</span></a>
+						<a href="index.html#process"><i class="fa fa-fw fa-list"></i><span>Process</span></a>
+						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+					</div>
+				</nav>
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated fadeInDown">
+                    Sha<span style="color:#F49F1C;">nai</span><br/>
+                    <span style="color:#F49F1C;">Nai<span style="color:#030E4F">r</span></span>
+                  </h1><!-- Title -->
+                  <h3><span class="rotate">Software Developer</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow"><span>About</span> me</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p>Hi there and welcome to my website! My name is Shanai (shan - ay) and I am a Computer Science undergraduate at the University of Durham. Outside of term time I enjoy creating custom software for small businesses based around where I live. Please see below for examples of the types of services I offer. Where a particular project will land in the price ranges given will be fixed, and quoted during our (free) consultation. </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-<p>  
-    This is some text.
-</p>
 
-<p>
-    <a href="https://www.google.com"> This is a hyperlink </a>
-</p>
 
-<p>
-    <a href="https://www.amazon.co.uk"> As is this </a>
-</p>
-<ul>
 
-    <li> These </li>
-    <li> are </li>
-    <li> items </li>
-    <li> in </li>
-    <li> a </li>
-    <li> list </li>
+<!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow"> My <span>Services</span> </h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-desktop"></i><!-- Icon -->
+                    </div>
+                    <h2> Frontend Web Development</h2><!-- Title -->
+                    <p> £100 - £250 for a simple static website like this one, depending on the desired complexity. </p><!-- Description -->
+                  </div>
+          <!-- Service Box 2 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-cloud"></i><!-- Icon -->
+                    </div>
+                    <h2>Full Web Development</h2><!-- Title -->
+                    <p> £500 - £2000 for a website which has a "frontend" but also a "backend" server which deals with things like bookings, database management, automatic mailing, data processing etc... </p><!-- Description -->
+                  </div>
+          <!-- Service Box 3 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-magic"></i><!-- Icon -->
+                    </div>
+                    <h2>Advanced Algorithms</h2><!-- Title -->
+                    <p> £250 - £1000, for anything from bespoke question answering models to categorising customer emails. During a free consultation we can brainstorm ideas as to how AI and automation can be used to improve the efficiency of your business. </p><!-- Description -->
+                  </div>
 
-  </ul>
+                  <!-- Service Box 4 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-mobile"></i><!-- Icon -->
+                    </div>
+                    <h2>iOS App Development</h2><!-- Title -->
+                    <p> £250 - £2000, depending on the complexity of the project. </p><!-- Description -->
+                  </div>
 
-</body>
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-calendar"></i><!-- Icon -->
+                    </div>
+                    <h2>Booking Systems</h2><!-- Title -->
+                    <p> Booking systems can be implemented through a website or an app. A booking system will allow you to show availablity and then allow your customers to book into available slots. Additional features are available such as user accounts to track rebookings, improve customer retention and prevent missed appointments. </p><!-- Description -->
+                  </div>
+          <!-- Service Box 5 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-line-chart"></i><!-- Icon -->
+                    </div>
+                    <h2>Data Analytics</h2><!-- Title -->
+                    <p> £100 - £250, data analytics involves using any data you have collected to gain insights / make predictions, based on said data. This will involve implementing neural networks and similar algorithms well suited to complex datasets.</p><!-- Description -->
+                  </div>
+          <!-- Service Box 6 -->
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <section class="intro text-center section-padding color-bg" id="process">
+        <div class="container">
+      <!-- WELCOME TEXT -->
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 wp1">
+              <h1 class="arrow"><span>What to</span> expect</h1><!-- Headline -->
+      <!-- about / welcome text -->
+              <p> If you decide to contact me using the form below I will arrange a free consultation meeting / call to discuss in depth your requirements, at which point I will be able to quote a price and give an approximate timeline for the project. I aim to provide as bespoke an experience as possible and so will constantly seek feedback throughout the design and construction process to ensure that we end up with a product that you are 100% happy with. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+		<!-- ==========================
+        ABOUT SECTION END
+        =========================== -->	
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow"><span>Contact</span> me</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- Adress Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Location</span></h2>
+                  <p>Pinner, London</p>
+                </div>
+              </div>
+			  <!-- Phone Number Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p>07584628905</p>
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p>shanainairwork@gmail.com</p>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+			  <!-- Contact Form -->
+
+        <div class="col-md-6">
+			    <div><img></img></div>
+			  </div>
+
+
+			</div>
+			<br>
+		
+		
+		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+	<script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+	<!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+	<!-- Text Rotator -->
+	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+	<!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+
+
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "scroll", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+
+    <script src="index.js"></script>
+	
+    </body>
 </html>
