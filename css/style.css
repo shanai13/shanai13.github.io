@@ -24,6 +24,25 @@
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
+
+@media only screen and ( max-width: 651px ) {
+	.menu-button{
+	  display:none !important;
+	}
+	.menu{
+		display:none !important;
+	}
+	.menu-wrap{
+		display:none !important;
+	}
+	.menu-wrap{
+		display:none !important;
+	}
+	.bigboy{
+		display:none !important;
+	}
+  }
+
 a {
 	color: #F49F1C;
 	-webkit-transition:all 0.5s;
