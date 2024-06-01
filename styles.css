@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif Pro', serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    padding-top: 10px; /* Further reduced top padding */
+    padding-bottom: 10px; /* Further reduced bottom padding */
+    font-size: 16.2px; /* Adjusted font size */
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px; /* Increased width */
+    padding: 0 10px; /* Further reduced padding */
+}
+
+.container {
+    width: 100%;
+    padding: 10px 0; /* Further reduced vertical padding for sections */
+}
+
+#title {
+    padding: 20px 0; /* Further reduced vertical padding for the title */
+    text-align: center;
+}
+
+#title-section {
+    padding: 0px 0; /* Further reduced vertical padding for the title */
+    text-align: center;
+}
+
+.main-title {
+    font-size: 3em; /* Large font size for the main title */
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+#about {
+    padding: 10px 0; /* Further reduced vertical padding within sections */
+}
+
+#about, #education, #experience, #featured-work {
+    padding: 10px 0; /* Further reduced vertical padding within sections */
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    flex: 0 0 280px; /* Adjusted size */
+    padding: 10px;
+    margin-right: 10px; /* Reduced margin */
+}
+
+.profile-pic img {
+    width: 100%;
+}
+
+.about-text {
+    flex: 1;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 2.0em; /* Adjusted font size */
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    margin-top: 10px; /* Further reduced top margin */
+    margin-bottom: 10px; /* Further reduced bottom margin */
+}
+
+h3 {
+    margin-top: 10px; /* Further reduced top margin */
+    margin-bottom: 10px; /* Further reduced bottom margin */
+    font-weight: 700;
+    font-size: 1.35em; /* Adjusted font size */
+}
+
+p {
+    margin-bottom: 5px; /* Further reduced bottom margin */
+    font-weight: 400;
+    font-size: 1.0125em; /* Adjusted font size */
+}
+
+p.title_first {
+    font-size: 1.4em; /* Increased font size for project titles */
+    margin-bottom: 20px; /* Further reduced bottom margin */
+    padding: 0px 0; /* Increased padding for the titles */
+}
+
+.work-item p.title {
+    font-size: 1.4em; /* Increased font size for project titles */
+    margin-bottom: 5px; /* Further reduced bottom margin */
+    padding: 20px 0; /* Increased padding for the titles */
+}
+
+.work-category {
+    margin-top: 10px; /* Further reduced margin */
+}
+
+.work-item {
+    margin-top: 20px; /* Further reduced margin */
+    margin-bottom: 10px; /* Further reduced margin */
+    padding-bottom: 20px; /* Further reduced padding for visual separation */
+    border-bottom: 1px solid #e0e0e0; /* Subtle divider */
+}
+
+.work-item + .work-item {
+    margin-top: 10px; /* Further reduced margin between projects */
+}
+
+.work-item-content {
+    display: grid;
+    grid-template-columns: 300px 1fr; /* Adjusted column size to fit the images */
+    gap: 10px; /* Reduced gap */
+    align-items: start;
+}
+
+.work-item img {
+    margin-top: 5px; /* Further reduced margin */
+    width: 300px; /* Adjusted size */
+    height: 192px; /* Adjusted size */
+    object-fit: contain;
+}
+
+.foot-image {
+    width: 250px; /* Custom size for foot.png */
+    height: 160px; /* Proportional height adjustment */
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    object-fit: contain;
+}
+
+.contact-buttons {
+    margin-top: 20px; /* Reduced top margin */
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px; /* Reduced padding */
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.indent-padding {
+    padding-left: 30px; /* Adjust the value as needed */
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
