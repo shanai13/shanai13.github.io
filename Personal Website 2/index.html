@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Shanai Nair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Times New Roman"', "serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-white text-black leading-relaxed p-8 font-serif text-base">
+    <div class="max-w-4xl mx-auto px-4">
+      <section id="title-section" class="text-center pb-8 pt-20">
+        <h1 class="text-5xl font-bold text-left">Shanai Nair</h1>
+      </section>
+
+      <section id="about" class="py-8">
+        <h2 class="text-3xl font-bold mb-6">About</h2>
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <div class="w-full md:w-1/3 pr-0 md:pr-8 mb-6 md:mb-0">
+            <img
+              src="muti.jpeg"
+              alt="Profile Picture"
+              class="w-full rounded-lg"
+            />
+          </div>
+          <div class="w-full md:w-2/3">
+            <p class="mb-4">
+              Hi, i'm Shanai! I recently graduated with a BSc in Computer
+              Science from Durham University, where I ranked second in my
+              cohort. I have a strong passion for machine learning and
+              artificial intelligence, and intend to enroll in a related
+              master’s program. I am scheduled to begin an Applied Science
+              (research) internship at Amazon in early 2025, am interviewing for
+              additional research roles in the summer, and currently spend my
+              time growing a "startup" that I founded.
+            </p>
+            <p class="mb-6">
+              My research interests include deep generative modeling for drug
+              and materials discovery, and reinforcement learning on large
+              pretrained models to enhance their capabilities and alignment.
+              Indeed, my most recent side project involved training a 124M
+              parameter autoregressive transformer from scratch and improving
+              its reasoning capabilities using a separately trained process
+              reward model.
+            </p>
+            <div class="space-x-4">
+              <a
+                href="mailto:shanainair@icloud.com"
+                class="inline-block px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition"
+                >Email Me</a
+              >
+              <a
+                href="https://www.linkedin.com/in/shanai-nair-1a346a1b7/"
+                target="_blank"
+                class="inline-block px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="py-8">
+        <h2 class="text-3xl font-bold mb-6">Education</h2>
+        <div class="mb-6">
+          <h3 class="text-xl font-bold mb-2">
+            Durham University - BSc in Computer Science (2021 to 2024)
+          </h3>
+          <p class="pl-6">Ranked 2nd in cohort overall, and:</p>
+          <ul class="list-disc pl-12 mb-4">
+            <li>1st in Deep Learning</li>
+            <li>3rd in Reinforcement Learning</li>
+            <li>4th for dissertation (Hierarchical Transformers)</li>
+            <li>Received an award for outstanding achievement</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">
+            Haberdashers' Boys' School (2008 to 2020)
+          </h3>
+          <p class="pl-6">
+            A Levels in Mathematics, Further Mathematics, Physics, and Chemistry
+          </p>
+          <p class="pl-6">Extended research project prize winner</p>
+        </div>
+      </section>
+
+      <section id="experience" class="py-8">
+        <h2 class="text-3xl font-bold mb-6">Experience</h2>
+        <div class="mb-6">
+          <h3 class="text-xl font-bold mb-2">
+            Ballo – Founder (2024 to present)
+          </h3>
+          <p class="pl-6">
+            Ballo (<a
+              href="https://ballo.cards"
+              class="text-black hover:underline"
+              >ballo.cards</a
+            >) began as a side project but has demonstrated compelling financial
+            potential. Regardless, I yearn to solve more technically challenging
+            and meaningful problems, and primarily view the website as a means
+            of funding my graduate education.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">
+            Amazon - Alexa AI - Software Development Engineering Intern (2023)
+          </h3>
+          <p class="pl-6">
+            Interned within the Natural Language Understanding group and
+            received a return offer.
+          </p>
+        </div>
+      </section>
+
+      <section id="featured-work" class="py-8">
+        <h2 class="text-3xl font-bold mb-6">Featured Work</h2>
+        <p class="mb-6">
+          This section contains some of my work from the recent past. Code is
+          available upon request and is not public by default due to university
+          restrictions.
+        </p>
+        <div class="space-y-12">
+          <div class="border-b border-gray-200 pb-8">
+            <h3 class="text-xl font-bold mb-4">
+              Dissertation - (2023 to 2024)
+            </h3>
+            <div class="flex flex-col md:flex-row gap-6">
+              <a href="dissertation.pdf" class="w-full md:w-1/3">
+                <img
+                  src="diss.png"
+                  alt="Dissertation"
+                  class="w-full h-48 object-contain"
+                />
+              </a>
+              <div class="w-full md:w-2/3">
+                <p class="mb-2">
+                  <strong>Description: </strong>My final-year university project
+                  was a self-proposed research project which involved designing
+                  a novel transformer-based architecture that aimed to learn
+                  semantically meaningful hierarchical representations from its
+                  training data. I learned more from working with my supervisor
+                  on this project than anything else at university.
+                </p>
+                <p class="mb-2"><strong>Mark: </strong>85% (4th in cohort)</p>
+                <p class="mb-2">
+                  <strong>Feedback:</strong> Extraordinary work for an L3
+                  project.
+                </p>
+                <a href="dissertation.pdf" class="text-black hover:underline"
+                  ><strong>Link to paper</strong></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="border-b border-gray-200 pb-8">
+            <h3 class="text-xl font-bold mb-4">
+              Deep Learning Coursework - (2023 to 2024)
+            </h3>
+            <div class="flex flex-col md:flex-row gap-6">
+              <a href="deep_learning.pdf" class="w-full md:w-1/3">
+                <img
+                  src="dl.png"
+                  alt="Deep Learning Coursework"
+                  class="w-full h-48 object-contain"
+                />
+              </a>
+              <div class="w-full md:w-2/3">
+                <p class="mb-2">
+                  <strong>Description: </strong>The deep learning coursework
+                  involved implementing discriminative and generative models for
+                  CIFAR100 given parameter and training time constraints.
+                </p>
+                <p class="mb-2"><strong>Mark: </strong>98% (1st in cohort)</p>
+                <p class="mb-2">
+                  <strong>Feedback: </strong>Overall, this is a perfect
+                  submission. The report and solution are perfect, with a
+                  perfectly performing classifier and perfect realism and
+                  perfect diversity for your generative model.
+                </p>
+                <a href="deep_learning.pdf" class="text-black hover:underline"
+                  ><strong>Link to paper</strong></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="border-b border-gray-200 pb-8">
+            <h3 class="text-xl font-bold mb-4">
+              Reinforcement Learning Coursework - (2024)
+            </h3>
+            <div class="flex flex-col md:flex-row gap-6">
+              <a href="reinforcement_learning.pdf" class="w-full md:w-1/3">
+                <img
+                  src="rl.png"
+                  alt="Reinforcement Learning Coursework"
+                  class="w-full h-48 object-contain"
+                />
+              </a>
+              <div class="w-full md:w-2/3">
+                <p class="mb-2">
+                  <strong>Description: </strong>The reinforcement learning
+                  coursework involved implementing a reinforcement learning
+                  agent to tackle the easy and hardcore BipedalWalker-v3
+                  environments in OpenAI Gym.
+                </p>
+                <p class="mb-2"><strong>Mark: </strong>95% (3rd in cohort)</p>
+                <a
+                  href="reinforcement_learning.pdf"
+                  class="text-black hover:underline"
+                  ><strong>Link to paper</strong></a
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Footprint - (2022)</h3>
+            <div class="flex flex-col md:flex-row gap-6">
+              <div class="w-full md:w-1/3">
+                <img
+                  src="foot.png"
+                  alt="Footprint App"
+                  class="w-full h-48 object-contain"
+                />
+              </div>
+              <div class="w-full md:w-2/3">
+                <p>
+                  Footprint was a journaling app that allowed users to upload
+                  text, audio, and video entries — before Apple offered the same
+                  within their own native app. I developed it as an independent
+                  side project during my first year of university. It has now
+                  been taken off the App Store since I do not have time to
+                  maintain it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
